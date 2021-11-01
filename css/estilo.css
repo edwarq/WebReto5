@@ -5,8 +5,10 @@ body{
     margin-right: 150px;
     margin-left: 100px;
     /*background-color: #CCECE3;*/
-    background-size: auto 382%;
-    background-image: url(/css/f.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-image: url(/css/f.jpg);*/
+    background-image: url("https://i.ibb.co/wcmvW3p/f.jpg");
     color-adjust: rgb(236, 236, 232);
     font-family: 'Open Sans', 'cursive';
 }
