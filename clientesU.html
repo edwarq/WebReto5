@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cabañas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+    <link rel="stylesheet" href="css/estiloClentes.css">
+
+</head>
+
+<body onload="activaNuevo()">
+<h1> </h1>
+<h1>LAS CABAÑAS ! </h1>
+<a href="clientes.html"><img src="img/atras2.png" alt="Regresar"></a>
+
+<h2>Tabla Clientes !!! </h2>
+<div style="overflow-x:auto;"></div>
+<div id="resultado1"></div>
+<button onclick="traerInformacionClientesU()"> Consultar Clientes Para Actualizar</button>
+
+<form action="javascript:editarInformacionCL()" method="post" id="formulario">
+    <input type="number" id="CLid" placeholder="ID" required />
+    <input type="email" id="CLemail" placeholder="Email" required />
+    <input type="text" id="CLpassword" placeholder="Password" required />
+    <input type="text" id="CLname" placeholder="Name" required />
+    <input type="number" id="CLage" placeholder="Age" required /> <br>
+    <button type="submit">Actualizar Cliente</button>
+</form>
+</body>
+
+</html>

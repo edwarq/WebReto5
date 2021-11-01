@@ -1,0 +1,34 @@
+
+body{
+    margin: 2000;
+    padding: 0;
+    margin-right: 150px;
+    margin-left: 100px;
+    /*background-color: #CCECE3;*/
+    background-size: auto 382%;
+    background-image: url(/css/f.jpg);
+    color-adjust: rgb(236, 236, 232);
+    font-family: 'Open Sans', 'cursive';
+}
+
+.content-foo{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.377);
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-size: 60px;
+}
+
+h2{
+    text-align: center;
+    background-color: rgba(122, 139, 153, 0.233);
+    width: 100%;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
